@@ -1,0 +1,82 @@
+.personagens {
+    padding: 2vw 5.6vw;
+    min-height: 50vw;
+    margin-top: 44px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+    
+    &__tab{
+        display: flex;
+        justify-content: center;
+
+        @media (max-width: 768px) {
+            white-space: nowrap;
+            overflow-x: scroll;
+            display: block;
+            padding-left: 60px;
+        }
+
+        &__button {
+            color: #fff;
+            font-size: 24px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            background: none;
+            margin: 0 1vw;
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+            border-bottom: 5px solid transparent;
+            transition: border 0.5s ease, background-color 0.5s ease, color 0.5s ease;;
+
+            &--is-active {
+                background-color: #fff;
+                border: 5px solid #000;
+                color: #000;
+                transition: border 0.5s ease, background-color 0.5s ease, color 0.5s ease;;
+
+
+            }
+
+            @media (max-width: 768px) {
+            }
+        }
+    }
+    &__list {
+        margin-top: 44px;
+        display: none;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 220px;
+        
+        &--is-active {
+            display: grid;
+        }
+        
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+            padding-left: 36px;
+        }
+        @media (min-width: 769px) and (max-width: 1023px) {
+            padding-left: 0;
+        }
+
+        &__item {
+
+            img {
+                width: 240px;
+
+                @media (max-width: 768px) {
+                    width: 120px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

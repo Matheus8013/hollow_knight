@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__container__title">
+                HollowKnight
+            </h1>
+        </div>
+    </header>
+
+    <div class="hero"></div>
+
+    <section class="section">
+        <div class="section__container" data-aos="fade-right">
+            <div class="section__details">
+                <h2 class="section__details__title title">
+                    História
+                </h2>
+                <p class="section__details__text text">
+                    O jogo começa com o personagem principal, 
+                    O Vessel, entrando nas ruínas de Hallownest, 
+                    um reino que era habitado por insetos antropomórficos, 
+                    e o acompanha enquanto descobre, conforme dialoga com os personagens e 
+                    explora Hallownest, que ele é um dos receptáculos criados para selar 
+                    uma entidade divina chamada Radiância, que há muito tempo 
+                    era idolatrada, até a chegada do Rei Pálido, uma outra entidade 
+                    divina que deu sapiência aos insetos de Hallownest e, em troca, 
+                    fez eles esquecerem da Radiância e o idolatrarem em vez disso. 
+                    A Radiância foi o que causou a ruína de Hallownest; 
+                    ela não possui um corpo físico, mas ela consegue 
+                    invadir a mente dos insetos, levando-os à loucura e assim criando "A Infecção".
+                </p>
+                <button type="button" class="button">Saiba mais</button>  
+            </div>
+            <img class="section__img" src="./dist/images/historia2.jpg" alt="">
+    </section>
+
+    <section class="section">
+        <div class="section__container section__container--left" data-aos="fade-left">
+            <div class="section__details">
+                <h2 class="section__details__title title">
+                    Gameplay
+                </h2>
+                <p class="section__details__text text">
+                    Hollow Knight é um jogo de ação e aventura em estilo metroidvania 
+                    2D que se passa em Hallownest, antigo reino fictício. O 
+                    jogador controla um silencioso receptáculo 
+                    enquanto explora um mundo subterrâneo. O cavaleiro utiliza uma arma pontiaguda
+                    (chamada de ferrão), tanto em combate quanto para interação com o ambiente.
+                </p>
+                <button type="button" class="button">Saiba mais</button>  
+            </div>
+            <img class="section__img" src="./dist/images/Gameplay.jpg" alt="">
+    </section>
+
+    <section class="personagens" data-aos="fade-up">
+        <nav class="personagens__tab">
+            <button data-tab-button="npcs" type="button" class="personagens__tab__button personagens__tab__button--is-active">
+                NPCs
+            </button>
+            <button data-tab-button="chefes" type="button" class="personagens__tab__button">
+                Chefes
+            </button>
+        </nav>
+
+        <ul data-tab-id="npcs" class="personagens__list personagens__list--is-active">
+            <li class="personagens__list__item">
+                <img src="./dist/images/Quirrel_Circle-2.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Willoh_Circle.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Cornifer_Circle.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Elderbug_Circle-2.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Hornet_Icon.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/White_Lady_Circle.webp" alt="">
+            </li>
+        </ul>
+
+        <ul data-tab-id="chefes" class="personagens__list">
+            <li class="personagens__list__item">
+                <img src="./dist/images/Winged_Nosk_Icon.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Pure_Vessel_Icon.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Radiance_Icon.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Nightmare_King_Icon.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/Hornet_Icon.webp" alt="">
+            </li>
+            <li class="personagens__list__item">
+                <img src="./dist/images/White_Lady_Circle.webp" alt="">
+            </li>
+        </ul>
+    </section>
+
+
+
+    <section class="faq" data-aos="fade-down">
+        <h2 class="title">
+            Perguntas frequentes
+        </h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Hollow Knight é um jogo difícil?
+                </div>
+                <div class="faq__questions__item__answer">
+                    Hollow Knight é considerado um jogo desafiador,
+                    especialmente para jogadores iniciantes.
+                    O jogo exige habilidade, estratégia e paciência para superar
+                    os obstáculos e inimigos. No entanto, com a prática e o conhecimento do jogo,
+                    é possível dominar as mecânicas e progredir na história.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Onde encontrar ajuda e dicas para Hollow Knight?
+                </div>
+                <div class="faq__questions__item__answer">
+                    Se você está com dificuldades em Hollow Knight, 
+                    existem diversas fontes de ajuda e dicas disponíveis online. 
+                    Você pode consultar wikis especializadas, fóruns de discussão, 
+                    comunidades online e vídeos de gameplay no YouTube. Além disso,
+                    você pode pedir ajuda para outros jogadores mais experientes ou 
+                    compartilhar suas dúvidas em comunidades online.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Hollow Knight vale a pena?
+                </div>
+                <div class="faq__questions__item__answer">
+                    Definitivamente! Hollow Knight é um jogo incrível e viciante, 
+                    com um mundo vasto e cheio de segredos para descobrir. 
+                    A jogabilidade é fluida e responsiva, 
+                    os gráficos são belíssimos e a trilha sonora é impecável. Se você gosta de jogos de plataforma
+                    e Metroidvania, Hollow Knight é uma experiência imperdível.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
